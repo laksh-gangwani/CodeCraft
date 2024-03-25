@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import fitlifepic from "@/public/FitLifePic.png";
+import fitlifepic from "@/public/fitlifepic.png";
 import awsimage from "@/public/AWSImage.webp";
 import ImageCaption from "@/public/ImageCaption.webp"
 import mernapp from "@/public/mernapp.webp";
