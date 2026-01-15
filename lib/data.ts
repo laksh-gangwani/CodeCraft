@@ -6,6 +6,7 @@ import fitlifepic from "@/public/fitlifepic.png";
 import awsimage from "@/public/AWSImage.webp";
 import ImageCaption from "@/public/ImageCaption.webp"
 import mernapp from "@/public/mernapp.webp";
+import gmailpic from "@/public/gmailpic.webp";
 
 export const links = [
   {
@@ -36,12 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Developer",
+    location: "Capital Insurance Group",
+    description:
+      "I build and operate AWS-based backend services and automated pipelines, focusing on scalable cloud workflows and system reliability.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  },
+  {
     title: "SDET Intern",
     location: "Rocket Lawyer",
     description:
       "I gained proficiency in automated scripting with Playwright and deepened my understanding of testing methodologies, contributing to a more efficient testing process.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "2023 - 2024",
   },
   {
     title: "Computer Science Tutor",
@@ -86,6 +95,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Gmail Assistant",
+    description:
+      "Built a Gmail AI Assistant Chrome extension that uses a backend service and Google Gemini to generate intelligent, context-aware email reply suggestions directly within Gmail.",
+    tags: ["Spring Boot", "Google Gemini", "React", "Chrome Extension"],
+    imageUrl: gmailpic
+  },
   {
     title: "FitLife",
     description:
