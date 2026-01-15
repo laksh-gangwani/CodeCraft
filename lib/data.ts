@@ -6,7 +6,7 @@ import fitlifepic from "@/public/fitlifepic.png";
 import awsimage from "@/public/AWSImage.webp";
 import ImageCaption from "@/public/ImageCaption.webp"
 import mernapp from "@/public/mernapp.webp";
-import gmailpic from "@/public/gmailpic.webp";
+import gmailpic from "@/public/gmailpic.png";
 
 export const links = [
   {
